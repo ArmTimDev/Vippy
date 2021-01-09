@@ -5,4 +5,4 @@ bot.load_directory("./scripts")
 bot.sort_replies()
 
 def reply(text: str) -> str:
-    return bot.reply("localuser", msg)
+    return bot.reply("localuser", text)
