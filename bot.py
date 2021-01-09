@@ -1,34 +1,37 @@
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+import sys
+import os
+from threading import Thread
+from telegram.ext import Updater, CommandHandler, Filters
+
 from helpers import reply as r
 
 
-def start(update, context):
-    update.effective_message.reply_text(
-        "Hey there, I'm alive."
-    )
+updater = Updater(os.environ.get("TOKEN"))
 
 
-def reply(update, context):
-    try:
-        update.effective_message.reply_text(
-            r(
-                update.effective_message.text
-            )
-        )
-    except:
-        pass
+def stop_and_restart():
+    updater.stop()
+    os.system("git pull")
+    os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-updater = Updater("1568480449:AAHKHbnWpoLzW_0CpCm_Rkx4uVRKfotk7bU")
-updater.dispatcher.add_handler(
-    MessageHandler(
-        Filters.text & Filters.chat_type.groups,
-        reply
-    )
-)
+def restart(update, contex):
+    update.message.reply_text("Restarting...")
+    Thread(
+        target=stop_and_restart
+    ).start()
+
+
 updater.dispatcher.add_handler(
     CommandHandler(
-        "start", start
+        "r",
+        restart,
+        filters=Filters.user(
+            [
+                839891760,
+                951435494
+            ]
+        )
     )
 )
 updater.start_polling()
