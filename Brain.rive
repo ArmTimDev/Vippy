@@ -5,3 +5,6 @@
 - Hi !
 - Hello !
 - Hey !
+
++ my name is *
+- <set name=<formal>>Ok I Set Your Name To : <get name> !
