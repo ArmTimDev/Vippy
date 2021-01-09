@@ -13,6 +13,9 @@
 + my name is *
 - <set name=<formal>>Ok I set your name to : <get name> !
 
++ google *
+- Tap Here : http://google.com/search?q=<star>
+
 + <reply>
 - Hey ! Don't repeat what I say ! Okay ?
 - I said this !
