@@ -6,7 +6,8 @@ bot.sort_replies()
 
 
 def reply(text: str) -> str:
-    return bot.reply("localuser", text)
+    res = bot.reply("localuser", text)
+    return res if res != "[ERR: No Reply Matched]" else None
 
 
 if __name__ == "__main__":

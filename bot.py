@@ -19,7 +19,7 @@ def reply(update, context):
         pass
 
 
-updater = Updater("TOKEN")
+updater = Updater("1568480449:AAHKHbnWpoLzW_0CpCm_Rkx4uVRKfotk7bU")
 updater.dispatcher.add_handler(
     MessageHandler(
         Filters.text & Filters.chat_type.groups,
