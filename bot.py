@@ -3,10 +3,21 @@ import os
 from threading import Thread
 from telegram.ext import Updater, CommandHandler, Filters
 
-from helpers import reply as r
+from handlers import all_handlers
 
 
 updater = Updater(os.environ.get("TOKEN"))
+
+for handler in all_handlers:
+    if len(handler) == 2:
+        updater.dispatcher.add_handler(
+            handler[0],
+            handler[1]
+        )
+    else:
+        updater.dispatcher.add_handler(
+            handler[0]
+        )
 
 
 def stop_and_restart():
