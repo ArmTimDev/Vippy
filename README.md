@@ -1,2 +1,2 @@
 # RiveScriptChatBot
-A RiveScript ChatBot ! 
+An Ai Bot Wich You Can Run It On Your Computer !
