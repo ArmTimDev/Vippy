@@ -1,4 +1,8 @@
 + hello
+* <get name> != undefined => {random}
+^ Hello there, <get name>!|
+^ Nice to see you again, <get name>!|
+^ Hey, <get name>!{/random}
 - Hi there!
 - Hey!
 - Howdy!
@@ -7,4 +11,4 @@
 - Hey !
 
 + my name is *
-- <set name=<formal>>Ok I Set Your Name To : <get name> !
+- <set name=<formal>>Ok I set your name to : <get name> !
