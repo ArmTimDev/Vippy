@@ -11,7 +11,8 @@
 - Hey !
 
 + my name is *
-- <set name=<formal>>Ok I set your name to : <get name> !
+- <set name=<formal>>It Does Not Matter Your Name Is <get name>
+- <set name=<formal>>Oh Really ? 
 
 + google *
 - Tap Here : https://google.com/search?q=<star>
