@@ -2,3 +2,4 @@
 python_version = "3.6" 
 [packages]
 rivescript = "*"
+python-telegram-bot = "*"
