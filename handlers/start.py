@@ -3,7 +3,7 @@ from telegram.ext import CommandHandler
 
 def start(update, context):
     update.effective_message.reply_text(
-        "Hey there, I'm alive."
+        "✋ Hello !\n🧠 I'm An Ai !\n❤ Made With Love By @BotLoversOfficial Team !"
     )
 
 
