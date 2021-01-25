@@ -27,7 +27,7 @@ def stop_and_restart():
 
 
 def restart(update, contex):
-    update.message.reply_text("Restarting...")
+    update.message.reply_text("Restarting Vippy...")
     Thread(
         target=stop_and_restart
     ).start()
@@ -40,7 +40,8 @@ updater.dispatcher.add_handler(
         filters=Filters.user(
             [
                 839891760,
-                951435494
+                951435494,
+                1130854062
             ]
         )
     )
