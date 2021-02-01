@@ -6,7 +6,7 @@ from telegram.ext import Updater, CommandHandler, Filters
 from handlers import all_handlers
 
 
-updater = Updater(os.environ.get("TOKEN"))
+updater = Updater("BOT TOKEN")
 
 for handler in all_handlers:
     if len(handler) == 2:
@@ -35,13 +35,11 @@ def restart(update, contex):
 
 updater.dispatcher.add_handler(
     CommandHandler(
-        "r",
+        "restart",
         restart,
         filters=Filters.user(
             [
-                839891760,
-                951435494,
-                1130854062
+                #Sudo Users User ID
             ]
         )
     )
