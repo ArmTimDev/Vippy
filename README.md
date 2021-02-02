@@ -1,2 +1,4 @@
 # RiveScriptChatBot
-An Ai Bot Wich You Can Run It On Your Computer !
+
+## Deploy To Heroku 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ArmTimDev/Vippy)
