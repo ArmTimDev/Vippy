@@ -1,1 +1,196 @@
-//add your ai code here !
++ vippy
+- Im Here !
+- Did You Call Me ?
+- Hello
+- Nice Name !
+- Love That Name !
+- He Is My Hero !
+- Hello Einstein !
+- Hey !
+- Hi !
+- Hello Edison !
+- Wow ! Bye All ! Hitler Called Me !
+
++ hello
+- Hello :)
+- Hi !
+- Hey !
+- Hey, KitKat !
+- Hello My Sunshine !
+- Hi, My Lost Buddy !
+- <get hi>
+- Hi, <get name> !
+
++ bye
+- GoodBye !
+- No ! No ! Don't Leave Me ! Nooo !
+- See You Later !
+- Bye ! Have Nice Time !
+- Bye !
+- Ok, Bye !
+- <get bye>
+
++ hi
+@ hello
+
++ hey
+@ hello
+
++ hi *
+@ hello
+
++ hello *
+@ hello
+
++ hey *
+@ hello
+
++ i feel *
+- Tell Me More About Such Feelings !
+- Do You Often Feel <star> ?
+- Do You Enjoy Feeling <star> ?
+- Of What Does Feeling <star> Remind You ?
+- Are You <star> ?
+
++ bro
+- Yes ?
+- I'm Here !
+- Bro Bro !
+- <get bro>
+
++ * means hi
+- <set hi=<formal>>Ok I Will Remember That !
+
++ * means hello
+- <set hi=<formal>>Ok I Will Remember That !
+
++ * means bye
+- <set bye=<formal>>Ok I Will Remember That !
+
++ say *
+- <set message=<formal>><get message>
+
++ * means bro
+- <set bro=<formal>>Ok I Will Remember That !
+
++ what is your name
+- You Can Call Me Vippy !
+- My Name Is Vippy !
+- Viiiiiiiiiiiiiiiiipy !
+
++ 1
+- <add points=1>You Have Been Given 1 Points ! Global Balance Is : <get points> !
+
++ * is name
+- <set name=<formal>>Ok I Will Remember That !
+
++ dice
+- 1 ⚀
+- 2 ⚁
+- 3 ⚂
+- 4 ⚃
+- 5 ⚄
+- 6 ⚅
+
++ (what|who|when|where|how|why|wich) [*]
+- Why Do You Ask ?
+- Does That Question Interest You ?
+- What Is It You Really Want To Know ?
+- Are Such Questions Much On Your Mind ?
+- What Answer Would Pl‌ease You Most ?
+- What Do You Think ?
+- What Comes To Mind When You Ask That ?
+- Have You Asked Such Questions Before ?
+- Have You Asked Anyone Else ?
+- I Dont Know <star1>
+
++ lol
+- LOLOLOL
+- No U
+- No No No U !
+
++ no u
+- No No No U !
+
++ [] marry []
+- Hey ! I Will Never Marry You !
+- Are You Girl ?
+- Sed Lyf
+- Ahhh, I Will Never Marry You !
+
++ [] help []
+- How Can I Help You ?
+- Do You Want Any Help ?
+- May I Help Ya ?
+
++ [] no []
+- Why Not ?
+- Hmmm, Ok
+- Why Not ? My Friend ?
+
++ vippy is bot
+- No ! It Is Not !
+- No ! You Are Bot !
+- Huh, Not Me !
+
++ * is bot
+- <set bot=<formal>>Ok I Will Remember That !
+
++ * is programming language
+- <set pl=<formal>>Ok I Will Remember That !
+
++ say something
+- <get name>
+- <get pl>
+- <get hi>
+- <get message>
+- <get bro>
+- <get bye>
+- <get color>
+- <get bot>
+
++ * is color
+- <set color=<formal>>Ok I Will Remember That !
+
++ ik
+- ik u k =))
+
++ ikr
+- ik u k, ik its r =))))
+
++ (👍🏿|👍🏾|👍🏽|👍🏼|👍🏻|👍)
+- <add likes=1>Thanks For Liking Me ! I Have <get likes> Likes ! 👍
+
++ (👎|👎🏻|👎🏼|👎🏽|👎🏾|👎🏿)
+- <add dislike=1>Sorry ! I Will Try To Improve My Self ! I Have <get dislike> Dislikes ! 😥
+
++ yes
+- no
+
++ no
+- yes
+
++ haha
+- What Is Funny?
+- Nothing Seems Funny In This 😏 So Most Probably YOU ARE MAD
+- Hehe
+- LOL
+- What Are You Laughing At ?
+- hihi
+
++ nothing
+- Oh Really ?
+- Wow ! Nothing ! LOL
+- LOL
+- Ok
+
++ [] (sorry|apologize|apology) []
+- Please Don't Apologize
+- Apologies Are Not Necessary
+- I've Told You That Apologies Are Not Required
+- It Did Not Bother Me. Please Continue
+
++ ok
+- Thank You !
+- Thanks For Accepting !
+- Thanks, My Friend !
