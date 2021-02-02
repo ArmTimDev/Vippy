@@ -1,1 +1,2 @@
 rivescript
+python-telegram-bot
