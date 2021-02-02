@@ -5,7 +5,7 @@ from telegram.ext import Updater, CommandHandler, Filters
 
 from handlers import all_handlers
 
-A = Config.TG_BOT_TOKEN
+A = input("Enter Your Bot Token >>> ")
 
 updater = Updater(A)
 
