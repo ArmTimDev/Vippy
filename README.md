@@ -10,11 +10,11 @@
 
 ### 🤔 Where To Host Vippy ?
 
-#### 📱 Your Android Phone 
+*📱 Your Android Phone* 
 
 📱 You Can Host **Vippy** On Your Android Phone Using [Termux](https://termux.com)
 
-#### 🤔 How To Do That ?
+**🤔 How To Do That ?**
 
 1️⃣ Install Termux For Android ! [Get It On Google Play](https://play.google.com/store/apps/details?id=com.termux)
 
