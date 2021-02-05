@@ -10,7 +10,7 @@
 
 ### 🤔 Where To Host Vippy ?
 
-*📱 Your Android Phone* 
+**📱 Your Android Phone** 
 
 📱 You Can Host **Vippy** On Your Android Phone Using [Termux](https://termux.com)
 
@@ -33,3 +33,11 @@
 8️⃣ Then Type ``` python Vippy.py ``` Then Tap Enter !
 
 🎉 Hooray ! Now You Can Use Your Ai Bot ! If You Got Error Feel Free To Say That In Discussions !
+
+**💻 Your Windows Laptop**
+
+💻 You Can Host **Vippy** On Your Windows Laptop Using [Git Bash](https://git-scm.com/)
+
+**🤔 How To Do That ?**
+
+💡 We Will Add This Tutorial Soon ! Just Wait !
