@@ -1,16 +1,3 @@
-## Informotion
-**👨‍💻 Top Language :**  
-
-![top language](https://img.shields.io/github/languages/top/ArmTimDev/Vippy?logo=python&style=for-the-badge)   
-
-**💻 Code Size :**   
-
-![code size in bytes](https://img.shields.io/github/languages/code-size/ArmTimDev/Vippy?color=purple&logo=github&style=for-the-badge)
-
-**❗ Open Issues :**
-
-![issues](https://img.shields.io/github/issues/ArmTimDev/Vippy?logo=github&style=for-the-badge)
-
 ## Questions !
 ### 🤔 What Is Vippy ?
 
@@ -45,6 +32,19 @@
 8️⃣ Then Type ``` python Vippy.py ``` Then Tap Enter !
 
 🎉 Hooray ! Now You Can Use Your Ai Bot ! If You Got Error Feel Free To Say That In Discussions !
+
+## Informotion
+**👨‍💻 Top Language :**  
+
+![top language](https://img.shields.io/github/languages/top/ArmTimDev/Vippy?logo=python&style=for-the-badge)   
+
+**💻 Code Size :**   
+
+![code size in bytes](https://img.shields.io/github/languages/code-size/ArmTimDev/Vippy?color=purple&logo=github&style=for-the-badge)
+
+**❗ Open Issues :**
+
+![issues](https://img.shields.io/github/issues/ArmTimDev/Vippy?color=red&logo=github&style=for-the-badge)
 
 **💻 Your Windows Laptop**
 
