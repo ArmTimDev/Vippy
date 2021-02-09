@@ -40,7 +40,7 @@
 
 **🤔 How To Do That ?**
 
-1️⃣ Install Git Bash !
+1️⃣ Type `pkg install git`
 
 2️⃣ Type ```git clone https://github.com/ArmTimDev/Vippy``` Then Tap Enter
 
