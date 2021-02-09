@@ -33,19 +33,6 @@
 
 🎉 Hooray ! Now You Can Use Your Ai Bot ! If You Got Error Feel Free To Say That In Discussions !
 
-## Informotion
-**👨‍💻 Top Language :**  
-
-![top language](https://img.shields.io/github/languages/top/ArmTimDev/Vippy?logo=python&style=for-the-badge)   
-
-**💻 Code Size :**   
-
-![code size in bytes](https://img.shields.io/github/languages/code-size/ArmTimDev/Vippy?color=purple&logo=github&style=for-the-badge)
-
-**❗ Open Issues :**
-
-![issues](https://img.shields.io/github/issues/ArmTimDev/Vippy?color=red&logo=github&style=for-the-badge)
-
 **💻 Your Windows Laptop**
 
 💻 You Can Host **Vippy** On Your Windows Laptop Using [Git Bash](https://git-scm.com/)
@@ -61,3 +48,20 @@
 4️⃣ If You Installed [Python](https://python.org) For Windows Already, Close Git Bash Then Run ```Vippy.py```
 
 5️⃣ And If You Did Not Installed [Python](https://python.org) For Windows, [Get It On Microsoft Store](https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l#activetab=pivot:overviewtab)
+
+## Informotion
+**👨‍💻 Top Language :**  
+
+![top language](https://img.shields.io/github/languages/top/ArmTimDev/Vippy?logo=python&style=for-the-badge)   
+
+**💻 Code Size :**   
+
+![code size in bytes](https://img.shields.io/github/languages/code-size/ArmTimDev/Vippy?color=purple&logo=github&style=for-the-badge)
+
+**❗ Open Issues :**
+
+![issues](https://img.shields.io/github/issues/ArmTimDev/Vippy?color=red&logo=github&style=for-the-badge)
+
+**🛠 Open Pull Requests :**
+
+![pull requests](https://img.shields.io/github/issues-pr-raw/ArmTimDev/Vippy?color=green&logo=github&style=for-the-badge)
