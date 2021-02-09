@@ -5,7 +5,7 @@
 
 **💻 Code Size :**   
 
-![code size in bytes](https://img.shields.io/github/languages/code-size/ArmTimDev/Vippy?style=for-the-badge)
+![code size in bytes](https://img.shields.io/github/languages/code-size/ArmTimDev/Vippy?color=purple&logo=github&style=for-the-badge)
 
 **❗ Open Issues :**
 
