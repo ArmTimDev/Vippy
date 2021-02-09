@@ -1,4 +1,6 @@
 # Vippy !
+## Informotion
+![Commits](https://img.shields.io/github/commit-activity/w/ArmTimDev/Vippy?color=purple&label=COMMITS&logo=github&style=for-the-badge)
 ## Questions !
 ### 🤔 What Is Vippy ?
 
