@@ -1,5 +1,16 @@
 ## Informotion
-**👨‍💻 Top Language :**  ![top language](https://img.shields.io/github/languages/top/ArmTimDev/Vippy?logo=python&style=for-the-badge)   **💻 Code Size :**   ![code size in bytes](https://img.shields.io/github/languages/code-size/ArmTimDev/Vippy?style=for-the-badge)
+**👨‍💻 Top Language :**  
+
+![top language](https://img.shields.io/github/languages/top/ArmTimDev/Vippy?logo=python&style=for-the-badge)   
+
+**💻 Code Size :**   
+
+![code size in bytes](https://img.shields.io/github/languages/code-size/ArmTimDev/Vippy?style=for-the-badge)
+
+**❗ Open Issues :**
+
+![issues](https://img.shields.io/github/issues/ArmTimDev/Vippy?logo=github&style=for-the-badge)
+
 ## Questions !
 ### 🤔 What Is Vippy ?
 
