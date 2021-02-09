@@ -40,4 +40,12 @@
 
 **🤔 How To Do That ?**
 
-💡 We Will Add This Tutorial Soon ! Just Wait !
+1️⃣ Install Git Bash !
+
+2️⃣ Type ```git clone https://github.com/ArmTimDev/Vippy``` Then Tap Enter
+
+3️⃣ After 5 Seconds Then Use ```cd Vippy``` 
+
+4️⃣ If You Installed [Python](https://python.org) For Windows Already, Close Git Bash Then Run ```Vippy.py```
+
+5️⃣ And If You Did Not Installed [Python](https://python.org) For Windows, [Get It On Microsoft Store](https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l#activetab=pivot:overviewtab)
