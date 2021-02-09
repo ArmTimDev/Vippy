@@ -1,5 +1,5 @@
 ## Informotion
-👨‍💻 Top Language : 
+**👨‍💻 Top Language :** 
 
 ![top language](https://img.shields.io/github/languages/top/ArmTimDev/Vippy?logo=python&style=for-the-badge)
 ## Questions !
