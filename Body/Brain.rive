@@ -115,18 +115,18 @@
 + no u
 - No No No U !
 
-+ [] marry []
++ [*] marry [*]
 - Hey ! I Will Never Marry You !
 - Are You Girl ?
 - Sed Lyf
 - Ahhh, I Will Never Marry You !
 
-+ [] help []
++ [*] help [*]
 - How Can I Help You ?
 - Do You Want Any Help ?
 - May I Help Ya ?
 
-+ [] no []
++ [*] no [*]
 - Why Not ?
 - Hmmm, Ok
 - Why Not ? My Friend ?
@@ -188,7 +188,7 @@
 - LOL
 - Ok
 
-+ [] (sorry|apologize|apology) []
++ [*] (sorry|apologize|apology) [*]
 - Please Don't Apologize
 - Apologies Are Not Necessary
 - I've Told You That Apologies Are Not Required
