@@ -10,7 +10,7 @@
 - Hi !
 - Hello Edison !
 - Wow ! Bye All ! Hitler Called Me !
-- Hello, I'm Present MyLord! 
+- Hello, I'm Present MyLord!
 - Hello, you write right my name is vippy and i'm busy in searching my hero.
 
 + hello
@@ -59,7 +59,7 @@
 - I'm Here !
 - Bro Bro !
 - <get bro>
-- Yeah, bro What's news? 
+- Yeah, bro What's news?
 
 + * means hi
 - <set hi=<formal>>Ok I Will Remember That !
@@ -144,6 +144,14 @@
 - <set pl=<formal>>Ok I Will Remember That !
 
 + say something
+* <get name> == undefined  => I Have Nothing To Say :/
+* <get pl> == undefined  => I Have Nothing To Say :/
+* <get hi> == undefined  => I Have Nothing To Say :/
+* <get message> == undefined  => I Have Nothing To Say :/
+* <get bro> == undefined  => I Have Nothing To Say :/
+* <get bye> == undefined  => I Have Nothing To Say :/
+* <get color> == undefined  => I Have Nothing To Say :/
+* <get bot> == undefined  => I Have Nothing To Say :/
 - <get name>
 - <get pl>
 - <get hi>
@@ -201,7 +209,7 @@
 
 + get my balance
 - You have $999.99 in your account.
-- You lost all your balance bcs vippy think it's a chewing gum. 
+- You lost all your balance bcs vippy think it's a chewing gum.
 
 + idk
 - Why? Bro?
@@ -266,8 +274,8 @@
 
 + welcome
 - My Pleasure
-- That Is Exactly What I Want From You ! 
-- I Really Appreciate It . 
+- That Is Exactly What I Want From You !
+- I Really Appreciate It .
 - This Really Means A LOT To Me !
 
 + tell me some jokes
