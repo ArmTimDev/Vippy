@@ -29,7 +29,9 @@
 
 7️⃣ Then Use ctrl + x Then Type ``` Y ``` Then Tap Enter !
 
-8️⃣ Then Type ``` python Vippy.py ``` Then Tap Enter !
+8️⃣ Then Type ```pip3 install -r requirements.txt
+
+9️⃣ Then Type ``` python Vippy.py ``` Then Tap Enter !
 
 🎉 Hooray ! Now You Can Use Your Ai Bot ! If You Got Error Feel Free To Say That In Discussions !
 
