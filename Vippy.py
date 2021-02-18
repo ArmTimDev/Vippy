@@ -5,8 +5,9 @@ from telegram.ext import Updater, CommandHandler, Filters
 
 from handlers import all_handlers
 
+token = os.environ['TELEGRAM_TOKEN']
 
-updater = Updater("TOKEN")
+updater = Updater(token)
 for handler in all_handlers:
     if len(handler) == 2:
         updater.dispatcher.add_handler(
