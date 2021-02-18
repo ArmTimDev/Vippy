@@ -3,7 +3,7 @@ from telegram.ext import CommandHandler
 
 msg = ["Hi ! I'm Always Here !", "Hello ? Anyone Here ?", "I'm Online !"]
 
-def start(update, context):
+def vippy(update, context):
     update.effective_message.reply_text(
         random.choice(msg)
     )
@@ -12,8 +12,8 @@ def start(update, context):
 __handlers__ = [
     [
         CommandHandler(
-            "start",
-            start
+            "vippy",
+            vippy
         )
     ]
 ]
