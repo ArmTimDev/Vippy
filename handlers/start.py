@@ -1,10 +1,12 @@
-from telegram.ext import CommandHandler
+from telegram.ext import CommandHandler, Updater
 
+user = update.effective_user
 
 def start(update, context):
     update.effective_message.reply_text(
         "✋ Hello !\n\n⚀ I'm An Ai !\n❤ Made With Love By @VippyNews Team !\n⚠️ Note : My Ai Will Work Only In Groups !"
     )
+    print("New User Joined !\nFirst Name : " + user.first_name + "\nUser Name : " + user.username)
 
 
 __handlers__ = [
