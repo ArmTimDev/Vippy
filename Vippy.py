@@ -1,9 +1,14 @@
+import logging
+
 import sys
 import os
 from threading import Thread
 from telegram.ext import Updater, CommandHandler, Filters
 
 from handlers import all_handlers
+
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 token = os.environ['TELEGRAM_TOKEN']
 
