@@ -16,7 +16,7 @@ def reply(update, context):
 __handlers__ = [
     [
         MessageHandler(
-            Filters.text & Filters.chat_type.groups & Filters.reply,
+            Filters.text & Filters.reply,
             reply
         )
     ]
