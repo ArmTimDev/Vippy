@@ -2,10 +2,9 @@ import math
 
 import pynewtonmath as newton
 from telegram import Update
-from telegram.ext import CallbackContext, run_async, CommandHandler
+from telegram.ext import CallbackContext, CommandHandler
 
 
-@run_async
 def simplify(update: Update, context: CallbackContext):
     args = context.args
     message = update.effective_message
