@@ -95,7 +95,7 @@
 - 5 ⚄
 - 6 ⚅
 
-+ (what|who|when|where|how|which) [*]
++ (what|who|when|where|which) [*]
 - Why Do You Ask ?
 - Does That Question Interest You ?
 - What Is It You Really Want To Know ?
@@ -177,16 +177,16 @@
 - <add dislike=1>Sorry ! I Will Try To Improve My Self ! I Have <get dislike> Dislikes ! 😥
 
 + yes
-- No !
-- No No No No !
+- Ok
+- Good !
 - Yes , You Are Right !
 
 + no
-- Yes !
-- Yes Yes Yes Yes !
-- Yes , You Are Right !
+- Why Not ?
+- Good !
+- You Are Right !
 
-+ haha
++ (haha|hihi)
 - What Is Funny?
 - Nothing Seems Funny In This 😏 So Most Probably YOU ARE MAD
 - Hehe
@@ -224,18 +224,12 @@
 - Noob....
 - Ask Someone Then...
 
-+ how are you ?
++ (how are you ?|how are you|how are you?|are you fine)
 - I'm Good !
 - Great !
-- I'm Excelent ?
+- I'm Excelent !
 - Not Bad, Are You Good ?
 - Hmmm, Not Bad
-
-+ how are you?
-- I'm Good !
-- Am Fine !
-- Good !
-- I'm Excellent !
 
 + im fine
 - Nice !
@@ -246,12 +240,12 @@
 - Thats Excellent !
 
 + good
-- Bad !
-- Worst !
+- Lol, No, Its Worst !
+- Wow ! Thats Good !
 
 - bad
-- Good !
-- Best !
+- Lol, No, Its Great !
+- Hey, Why Its Bad ?
 
 + owo
 - OWOWOWOW
