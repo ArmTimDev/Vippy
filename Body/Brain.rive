@@ -300,3 +300,26 @@
 + sure
 - Oh, Ok !
 - Ok, My Friend
+
++ my name is *
+- <set name=<formal>>Oh Really ? Nice ! But It Doesn't Matter 😐
+- <set name=<formal>>Nice Name !
+
++ abcdefghijklmnopqrstuvwxyz
+- Hey, Are You A Teacher !?
+- If You Dont Know What Is That, No Problem , I Will Say, They Are Alphabets 😐
+
++ i (will|will not) *
+- It Doesn't Matter To Me Whether You <star2> Or Not.
+- It Doesn't Matter 🙄
+
++ knock knock
+- Who's there?
+
++ *
+% who is there
+- <star> who?
+
++ *
+% * who
+- LOL! <star>! That's funny!
