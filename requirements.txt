@@ -2,3 +2,4 @@ rivescript
 python-telegram-bot
 gtts
 wikipedia
+pynewtonmath
