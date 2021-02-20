@@ -9,7 +9,7 @@ def tts(update: Update, context: CallbackContext) -> None:
  myobj = gTTS(text=tts, lang=language, slow=False)
  file_id = str(update.message.from_user.id) + '.mp3'
  myobj.save(file_id)
- context.bot.sendVoice(chat_id=update.message.chat.id, audio=open(file_id, 'rb'))
+ context.telegram.Voice(chat_id=update.message.chat.id, audio=open(file_id, 'rb'))
  os.remove(file_id)
 
 __handlers__ = [
