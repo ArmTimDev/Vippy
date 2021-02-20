@@ -1,8 +1,9 @@
 import wikipedia 
 from telegram import ParseMode, Update
-from telegram.ext import CallbackContext, run_async
+from telegram.ext import CallbackContext, run_async, CommandHandler
 from wikipedia.exceptions import DisambiguationError, PageError
 
+@run_async
 def wiki(update: Update, context: CallbackContext):
     msg = update.effective_message.reply_to_message if update.effective_message.reply_to_message else update.effective_message
     res = ""
