@@ -1,3 +1,4 @@
 rivescript
 python-telegram-bot
 gtts
+wikipedia
