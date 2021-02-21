@@ -4,6 +4,7 @@ def start(update, context):
     update.effective_message.reply_text(
         "✋ Hello !\n\n⚀ I'm An Ai !\n❤ Made With Love By @VippyNews Team !"
     )
+    print("New User ! \nUser ID : " + update.message.from_user.id + "\nUser Name : " + update.message.from_user.username)
     
 
 __handlers__ = [
