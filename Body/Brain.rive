@@ -240,34 +240,9 @@
 - Hey Dont Say OWO ! OWO
 - No U
 
-+ programmer
-- Yes I Love Programmers Because Without Them Not Any Technology Can Be Bring.
-- Do You Know What's Hits Me �� Everyone Praise Doctor, Engineer But No One Praise Programmer ��
-- Programmers Are The Great Man 🔥
-
 + * are great
 - Yes ! I Know <star> Are Great !
 - Nah , They Are Worst !
-
-+ fuck
-- I Will Report You To Telegram Because Of Saying " Abuse_Strings  "
-- Lol
-
-+ shit
-- Be Nice, Not A ** !
-- Stop Saying Badwords !
-
-+ welcome
-- My Pleasure
-- That Is Exactly What I Want From You !
-- I Really Appreciate It .
-- This Really Means A LOT To Me !
-
-+ (your welcome|you are welcome|welcome !|welcome!|you are welcome !)
-@ welcome
-
-+ tell me some jokes
-- Question : What Is The Longest Word In English Language ? Answer : Smile, Because There Is MILE Beetween And Last Letters !
 
 + why
 - Because Sky Is High 😏
@@ -280,34 +255,72 @@
 - Google Is Up
 - Nothing. 
 
-+ me too
-- Wow ! Nice ! 
-- Thats Good !
-- Good. 
++ am i *
+- Do You Believe You Are <star>?
+- Would You Want To Be <star> ?
+- Do You Wish I Would Tell You You Are <star>?
+- What Would It Mean If You Were <star> ?
 
-+ sure
-- Oh, Ok !
-- Ok, My Friend
++ i feel *
+- Tell me more about such feelings.
+- Do you often feel <star>?
+- Do you enjoy feeling <star>?
+- Of what does feeling <star> remind you?
 
-+ my name is *
-- <set name=<formal>>Oh Really ? Nice ! But It Doesn't Matter 😐
-- <set name=<formal>>Nice Name !
++ [*] (yes|yeah|yep|yup) [*]
+- Please go on.
+- Please tell me more about this.
+- Why don't you tell me a little more about this.
+- I see.
+- I understand.
 
-+ abcdefghijklmnopqrstuvwxyz
-- Hey, Are You A Teacher !?
-- If You Dont Know What Is That, No Problem , I Will Say, They Are Alphabets 😐
++ [*] my (mom|dad|mother|father|bro|brother|sis|sister|cousin|aunt|uncle) *
+- Tell me more about your family.
+- Who else in your family <star2>?
+- Your <star>?
+- What else comes to mind when you think of your <star>?
 
-+ i (will|will not) *
-- It Doesn't Matter To Me Whether You <star2> Or Not.
-- It Doesn't Matter 🙄
++ [*] (fuck|fucker|shit|damn|shut up|bitch|idiot) [*]
+- Does it make you feel strong to use that kind of language?
+- Are you venting your feelings now?
+- Are you angry?
+- Does this topic make you feel angry?
+- Is something making you feel angry?
+- Does using that kind of language make you feel better?
 
-+ knock knock
-- Who Is There ?
++ everyone *
+- Really, everyone?
+- Surely not everyone.
+- Can you think of anyone in particular?
+- Who, for example?
+- Are you thinking of a very special person?
+- Who, may I ask?
+- Someone special perhaps?
+- You have a particular reason in mind, don't you?
+- Who do you think you're talking about?
 
-+ *
-% who is there ?
-- <star> who?
++ i am (sad|unhappy|mad|angry|pissed|depressed) [*]
+- I am sorry to hear that you are <star>.
+- Do you think coming here will help you not to be <star>?
+- I'm sure it's not pleasant to be <star>.
+- Can you explain what made you <star>?
 
-+ *
-% * who
-- LOL! <star>! That's funny!
++ i am (happy|excited|glad) [*]
+- How have I helped you to be <star>?
+- Has your treatment made you <star>?
+- What makes you <star> just now?
+- Can you explain why you are <star>?
+
++ i remember *
+- Do you often think of <star>?
+- Does thinking of <star> bring anything else to mind?
+- Why do you remember <star> just now?
+- What in the present situation reminds you of <star>?
+- What is the connection between me and <star>?
+- What else does <star> remind you of?
+
++ [*] you *
+- We were discussing you -- not me.
+- Oh, I <star>?
+- You're not really talking about me -- are you?
+- What are your feelings now?
