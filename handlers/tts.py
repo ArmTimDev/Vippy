@@ -3,8 +3,10 @@ from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandle
 from gtts import gTTS
 import os
 
+
 language = 'en'
 def tts(update: Update, context: CallbackContext) -> None:
+ context.bot.send_chat_action(update.effective_chat.id, "record_audio")
  tts = update.message.text.replace(update.message.text.split(' ')[0], '')
  myobj = gTTS(text=tts, lang=language, slow=False)
  file_id = str(update.message.from_user.id) + '.mp3'
