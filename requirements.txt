@@ -2,4 +2,4 @@ rivescript
 python-telegram-bot
 gtts
 wikipedia
-pynewtonmath
+covid19-data
