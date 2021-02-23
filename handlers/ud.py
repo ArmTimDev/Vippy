@@ -1,6 +1,6 @@
 import requests
 from telegram import Update, Bot, ParseMode
-from telegram.ext import run_async, CommandHandler, Updater
+from telegram.ext import run_async, CommandHandler, Updater, CallbackContext
 
 
 @run_async
