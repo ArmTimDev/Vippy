@@ -4,7 +4,7 @@ from telegram.ext import run_async, CommandHandler, Updater
 
 
 @run_async
-def ud(bot: Bot, update: Update):
+def ud(update: Update, context: CallbackContext):
     message = update.effective_message
     text = update.message.text.replace(update.message.text.split(' ')[0], '')
     results = requests.get(f'http://api.urbandictionary.com/v0/define?term={text}').json()
