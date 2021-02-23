@@ -99,10 +99,6 @@ __handlers__ = [
     [
         CommandHandler(
             "ping",
-            ping
-        )
-        CommandHandler(
-            "pingall",
             pingall
         )
     ]
