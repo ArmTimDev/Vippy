@@ -6,7 +6,7 @@ from telegram.ext import run_async, CommandHandler, Updater
 @run_async
 def ud(bot: Bot, update: Update):
     message = update.effective_message
-    text = message.text[len('/ud '):]
+    text = update.message.text.replace(update.message.text.split(' ')[0], '')
     results = requests.get(f'http://api.urbandictionary.com/v0/define?term={text}').json()
     try:
         reply_text = f'*{text}*\n\n{results["list"][0]["definition"]}\n\n_{results["list"][0]["example"]}_'
