@@ -13,7 +13,7 @@
 - Hello, I'm Present MyLord!
 - Hello, you write right my name is vippy and i'm busy in searching my hero.
 
-+ hello
++ (hello|hi|hu|hey|hii|hiii|hiiii)
 - Hello :)
 - Hi !
 - Hey !
@@ -31,21 +31,6 @@
 - Bye !
 - Ok, Bye !
 - <get bye>
-
-+ hi
-@ hello
-
-+ hey
-@ hello
-
-+ hi *
-@ hello
-
-+ hello *
-@ hello
-
-+ hey *
-@ hello
 
 + i feel *
 - Tell Me More About Such Feelings !
@@ -79,7 +64,7 @@
 + what is your name
 - You Can Call Me Vippy !
 - My Name Is Vippy !
-- Viiiiiiiiiiiiiiiiipy !
+- Viiiiiiiiiiiiiiiiippy !
 
 + 1
 - <add points=1>You Have Been Given 1 Points ! Global Balance Is : <get points> !
