@@ -3,7 +3,7 @@ from typing import List
 
 import requests
 from telegram import ParseMode, Update
-from telegram.ext import CallbackContext, run_async, CommandHandler
+from telegram.ext import CallbackContext, run_async, CommandHandler, Updater
 
 sites_list = {
     "Telegram": "https://api.telegram.org",
