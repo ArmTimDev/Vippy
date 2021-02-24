@@ -298,12 +298,6 @@
 - What is the connection between me and <star>?
 - What else does <star> remind you of?
 
-+ [*] you *
-- We were discussing you -- not me.
-- Oh, I <star>?
-- You're not really talking about me -- are you?
-- What are your feelings now?
-
 > topic sorry
 
   // This will match if the word "sorry" exists ANYWHERE in their message
