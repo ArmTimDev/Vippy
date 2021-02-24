@@ -172,12 +172,6 @@
 - LOL
 - Ok
 
-+ [*] (sorry|apologize|apology) [*]
-- Please Don't Apologize
-- Apologies Are Not Necessary
-- I've Told You That Apologies Are Not Required
-- It Did Not Bother Me. Please Continue
-
 + ok
 - Thank You !
 - Thanks For Accepting !
@@ -309,3 +303,26 @@
 - Oh, I <star>?
 - You're not really talking about me -- are you?
 - What are your feelings now?
+
+> topic sorry
+
+  // This will match if the word "sorry" exists ANYWHERE in their message
+  + [*] sorry [*]
+  - It's OK, I'll forgive you!
+
+  + *
+  - Nope, not until you apologize.
+  - Say you're sorry!
+  - Apologize!
+
+< topic
+
++ <reply>
+- Don't repeat what I say.
+
+// If the user keeps repeating themselves over and over.
++ <input1>
+* <input1> == <input2> => That's the second time you've repeated yourself.
+* <input1> == <input3> => If you repeat yourself again I'll stop talking.
+* <input1> == <input4> => That's it. I'm not talking.{topic=sorry}
+- Please don't repeat yourself.
