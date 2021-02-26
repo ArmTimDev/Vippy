@@ -311,16 +311,6 @@
 
 < topic
 
-+ <reply>
-- Don't repeat what I say.
-
-// If the user keeps repeating themselves over and over.
-+ <input1>
-* <input1> == <input2> => That's the second time you've repeated yourself.
-* <input1> == <input3> => If you repeat yourself again I'll stop talking.
-* <input1> == <input4> => That's it. I'm not talking.{topic=sorry}
-- Please don't repeat yourself.
-
 + bruh
 - What happened?
 - What is bad?
